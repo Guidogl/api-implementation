@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+The project to display API implementation.
+
+On project start it loads 100 blog cards.
+Suspense is used to keep the size of the card stable.
+The page is responsive but Cards stay always the same size.
+There is a toggle implemented without additional libraries.
+When toggled a Card loads 500 comments.
+
 
 ## Available Scripts
 
