@@ -12,4 +12,12 @@ declare global {
     id: string;
     post: boolean;
   }
+
+  interface Comment {
+    body: string;
+    email: string;
+    id: string;
+    name: string;
+    postId: string;
+  }
 }
